@@ -125,4 +125,11 @@ public class CCuenta {
         setSaldo(getSaldo() - cantidad);
     }
 
+    @Override
+    public String toString() {
+        return "CCuenta{" + "nombre=" + nombre + ", cuenta=" + cuenta + ", saldo=" + saldo + ", tipoInterés" + tipoInterés + '}';
+    }
+    
+    
+
 }
