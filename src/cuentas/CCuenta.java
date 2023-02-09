@@ -5,7 +5,9 @@ package cuentas;
  * @author CIDEAD
  */
 public class CCuenta {
-    
+    /**
+    * Atributos de la clase cuenta.
+    */
     private String nombre;
     private String cuenta;
     private double saldo;
@@ -82,6 +84,7 @@ public class CCuenta {
      * @param tipo tipo de interés
      */
     public CCuenta(String nom, String cue, double sal, double tipo) {
+       
         nombre = nom;
         cuenta = cue;
         saldo = sal;
@@ -125,11 +128,15 @@ public class CCuenta {
         setSaldo(getSaldo() - cantidad);
     }
 
+    /**
+     * Método toString que devuelve una cadena de texto con los valores de todos los atributos de una cuenta
+     * @return 
+     */
     @Override
     public String toString() {
         return "CCuenta{" + "nombre=" + nombre + ", cuenta=" + cuenta + ", saldo=" + saldo + ", tipoInterés" + tipoInterés + '}';
     }
     
-    
+ 
 
 }
