@@ -7,7 +7,7 @@ package cuentas;
 public class Main {    //TAREA ED 04 MONSERRAT NOYA EIRAS
 
     /**
-     * Método principal con el que se controla la operativa de la cuenta
+     * Método principal con el que se controla la operativa de la cuenta.
      * @param args the command line arguments
      */
 
@@ -17,7 +17,7 @@ public class Main {    //TAREA ED 04 MONSERRAT NOYA EIRAS
     }
 
     /**
-     * Método de la clase main que crea una cuenta, se realiza un ingreso y una retirada
+     * Método de la clase main que crea una cuenta, se realiza un ingreso y una retirada.
      * @param cantidad 
      */
     public static void operativa_cuenta(float cantidad) {
