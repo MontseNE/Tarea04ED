@@ -1,13 +1,13 @@
 package cuentas;
 
 /**
- * Clase para gestionar la aplicación de cuentas bancarias
+ * Clase para gestionar la aplicación 
  * @author CIDEAD
  */
 public class Main {    //TAREA ED 04 MONSERRAT NOYA EIRAS
 
     /**
-     * Método principal con el que se controla la operativa de la cuenta con el método operativa_cuenta
+     * Método principal con el que se controla la operativa de la cuenta
      * @param args the command line arguments
      */
 
