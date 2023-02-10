@@ -1,6 +1,15 @@
 package cuentas;
 
+/**
+ * Clase para gestionar la aplicación 
+ * @author CIDEAD
+ */
 public class Main {    //TAREA ED 04 MONSERRAT NOYA EIRAS
+
+    /**
+     * Método principal con el que se controla la operativa de la cuenta
+     * @param args the command line arguments
+     */
 
     public static void main(String[] args) {
         operativa_cuenta(0);
